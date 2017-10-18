@@ -84,7 +84,6 @@ module.exports = function (options) {
             return cb ()
         }
 
-
         let fileContent = String (file.contents.toString ())
         let extractContent = extractDocumentWriteContent (rootPath, fileContent)
 
