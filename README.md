@@ -17,6 +17,7 @@ My js file is `combo.js`, '/resource/js/comboSrc/combo.js' is relative path at w
      document.write('<script src="' + srcPath + 'c.js"><\/script>');
      document.write('<script src="' + srcPath + 'd.js"><\/script>');
  }());
+```
 
 In my gulp file written like this:
 ```js
@@ -33,3 +34,4 @@ gulp.task ('js', function () {
         }))
         .pipe (gulp.dest (jsDest))
 })
+```
