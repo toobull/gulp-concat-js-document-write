@@ -9,7 +9,7 @@ $ npm install --save gulp-concat-js-document-write
 ```
 
 ### 2.Usage
-My js file is `combo.js`, '/resource/js/comboSrc/combo.js' is relative path at website's root.
+My js file is `combo.js`, '/resource/js/combo/src/combo.js' is relative path at website's root.
 ```js
 (function() {
      var srcPath = '/resource/js/';
