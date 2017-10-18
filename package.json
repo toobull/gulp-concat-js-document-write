@@ -1,0 +1,29 @@
+{
+  "name": "gulp-concat-js-document-write",
+  "version": "1.0.0",
+  "description": "a gulp plugin, concat `document.write` in js file for one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toobull/gulp-concat-js-document-write.git"
+  },
+  "keywords": [
+    "gulp",
+    "js",
+    "concat",
+    "document.write"
+  ],
+  "author": "jser.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toobull/gulp-concat-js-document-write/issues"
+  },
+  "homepage": "https://github.com/toobull/gulp-concat-js-document-write#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
