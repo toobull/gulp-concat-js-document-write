@@ -80,7 +80,7 @@ module.exports = function (options) {
         }
 
         if (file.isStream ()) {
-            this.emit ('error', new gutil.PluginError ('combine.js', 'Streaming not supported'))
+            this.emit ('error', new gutil.PluginError ('gulp-concat-js-document-write', 'Streaming not supported'))
             return cb ()
         }
 
