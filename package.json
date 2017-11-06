@@ -1,6 +1,6 @@
 {
   "name": "gulp-concat-js-document-write",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a gulp plugin, concat `document.write` in js file for one",
   "main": "index.js",
   "scripts": {

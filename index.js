@@ -57,7 +57,7 @@ function extractDocumentWriteContent (rootPath, fileContent) {
             }
 
             ret += ret ? '\n' : ''
-            ret += `/**import from \`${item}\` **/\n`
+            ret += `;/**import from \`${item}\` **/\n`
             ret += extractContentByPath (rootPath, item)
             ret += '\n'
         }
